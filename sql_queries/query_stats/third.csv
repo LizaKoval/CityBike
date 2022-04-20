@@ -1,0 +1,3 @@
+"QUERY PLAN"
+"Aggregate  (cost=82827.03..82827.04 rows=1 width=8)"
+"  ->  Seq Scan on trips  (cost=0.00..75544.02 rows=2913202 width=7)"

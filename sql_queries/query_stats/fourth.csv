@@ -1,0 +1,5 @@
+"QUERY PLAN"
+"HashAggregate  (cost=314972.81..384356.16 rows=2364353 width=40)"
+"  Group Key: EXTRACT(month FROM start_date)"
+"  Planned Partitions: 128"
+"  ->  Seq Scan on trips  (cost=0.00..82827.03 rows=2913202 width=32)"
